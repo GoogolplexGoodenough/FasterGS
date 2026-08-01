@@ -25,7 +25,6 @@ Default hyper-parameters used in the paper: \(\tau_s=32\), \(\tau_l=512\), bucke
 | Accelerates **training** | ✓ | △ | **✓** |
 | Accelerates **rendering** | △ | ✓ | **✓** |
 | Kernel-level **workload rebalancing** | ✗ | △ | **✓** |
-| Parallel **α-compositing** (fwd + bwd) | ✗ | ✗ | **✓** |
 | **Plug-and-play** across pipelines | △ | △ | **✓** |
 | Quality largely **unchanged** | ✓ | ✓ | **✓** |
 | Orthogonal to existing accelerators | — | — | **✓** |
