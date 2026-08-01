@@ -16,7 +16,6 @@ Across seven mainstream 3DGS pipelines and three standard benchmarks, FasterGS d
 - **Bucketized parallel alpha compositing** — partition per-tile depth-ordered lists into fixed-size buckets, render in parallel, then merge with an associative rule (forward & backward).
 - **Drop-in acceleration** — integrate into existing trainable pipelines.
 
-Default hyper-parameters used in the paper: \(\tau_s=32\), \(\tau_l=512\), bucket size \(B=128\) (NVIDIA RTX 3090).
 
 ### Why FasterGS?
 
@@ -90,9 +89,8 @@ Pass `--fastergs` to use our accelerated CUDA backend.
 
 ## Requirements
 
-- Linux / Windows with NVIDIA GPU
-- CUDA toolkit compatible with your PyTorch build (paper experiments: RTX 3090)
-- Python ≥ 3.8, PyTorch with CUDA
+- Linux with NVIDIA GPU
+- CUDA toolkit compatible with your PyTorch build (paper experiments: RTX 3090, CUDA toolkits 12.6)
 - Standard 3DGS dependencies (`plyfile`, `tqdm`, etc.; follow each baseline’s original environment when possible)
 
 ### GPU Compatibility
@@ -275,7 +273,7 @@ If you find this work useful, please cite:
 }
 ``` -->
 
-### Related baselines (please cite when applicable)
+### Related baselines
 
 ```bibtex
 @Article{kerbl3Dgaussians,
