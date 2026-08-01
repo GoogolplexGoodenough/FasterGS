@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.egg
+*.egg-info/
+dist/
+*.egg-info
+.Python
+*.manifest
+*.spec
+
+# Extension / CUDA build artifacts
+build/
+**/build/
+*.o
+*.obj
+*.a
+*.dll
+.ninja_deps
+.ninja_log
+
+# Training / evaluation outputs
+output/
+outputs/
+eval/
+results/
+logs/
+wandb/
+runs/
+tensorboard/
+.cache/
+
+# Gaussian Splatting run artifacts
+point_cloud/
+cameras.json
+cfg_args
+input.ply
+*.ply
+*.pth
+*.pt
+*.ckpt
+TRAIN_INFO.txt
+RENDER_INFO.txt
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Env
+.env
+.venv/
+venv/
+env/

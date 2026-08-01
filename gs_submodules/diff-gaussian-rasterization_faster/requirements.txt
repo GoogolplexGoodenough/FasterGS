@@ -1,0 +1,4 @@
+numpy
+torch
+pybind11
+setuptools
