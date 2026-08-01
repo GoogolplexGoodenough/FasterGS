@@ -107,8 +107,8 @@ Some methods may fail to build or run on certain GPU architectures (e.g. **Speed
 ### 1. Clone
 
 ```bash
-git clone <THIS_REPO_URL>.git
-cd MM26_code
+git clone https://github.com/GoogolplexGoodenough/FasterGS
+cd FasterGS
 ```
 
 ### 2. Build shared helpers (once)
