@@ -12,7 +12,7 @@ cmd = "python full_eval.py --fastergs --gpu 0 -m360 {} -tat {} -db {} --output_p
 print(cmd)
 os.system(cmd)
 
-cmd = "python full_eval.py --gpu 0 -m360 {} -tat {} -db {} --output_path eval/Dash_faster".format(
+cmd = "python full_eval.py --dash --gpu 0 -m360 {} -tat {} -db {} --output_path eval/Dash".format(
     m360, tat, db
     )
 
